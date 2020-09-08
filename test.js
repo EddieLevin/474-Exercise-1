@@ -7,7 +7,7 @@ function print(n) {
         console.log(element)
     }
     for (const index in outList) {
-        console.log(outList[index])
+        console.log(index + ": " + outList[index])
     }
 }
-print(4);
+print(6);
