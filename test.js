@@ -1,10 +1,13 @@
 function print(n) {
     let outList = [];
     for (i = 0; i < n; i++) {
-        outList.push(i);
+        outList.push(i * 2);
     }
-    outList.forEach(element => {
-        console.log(element);
-    });
+    for (const element of outList) {
+        console.log(element)
+    }
+    for (const index in outList) {
+        console.log(outList[index])
+    }
 }
 print(4);
