@@ -4,7 +4,7 @@ $(function () {
         var fname = $('#fname').val();
         var lname = $('#lname').val();
         $('.jumbotron').text(reverse(fname + " " + lname));
-        $('.jumbotron').attr("style", "display: block !important;");
+        $('.jumbotron').removeClass('d-none');
         return false;
     });
 });
