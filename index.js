@@ -3,8 +3,7 @@ $(function () {
         event.preventDefault();
         var fname = $('#fname').val();
         var lname = $('#lname').val();
-        $('.jumbotron').text(reverse(fname + " " + lname));
-        $('.jumbotron').removeClass('d-none');
+        $('.jumbotron').text(reverse(fname + " " + lname)).removeClass("d-none");
         return false;
     });
 });
